@@ -32,6 +32,22 @@ $(document).ready(function() {
                 $('.header').removeClass('fixed');
             }
         });
+
+        // scroll to Top button
+        $('#scrollTop').click(function(){
+            $('html, body').animate({
+                scrollTop: 0
+            }, '1000')
+        });
+    
+
+        $(window).on('scroll', function(){
+            if ($(this).scrollTop() > 600) {
+                $('#scrollTop').css('opacity', '1');
+            } else{
+                $('#scrollTop').css('opacity', '0');
+            }
+        });
     });
 
 

@@ -205,6 +205,9 @@ h5 {
 .header.fixed .navbar-nav li a:hover{
     color: var(--red-dark) !important;
 }
+.header.fixed .navbar-nav li a.active{
+    color: var(--red-dark) !important;
+}
 .header.fixed a{
     color: var(--grey-600) !important;
 }
@@ -652,4 +655,23 @@ footer{
 }
 .footer-content i:hover{
     color: var(--red-dark);
+}
+
+/* scroll top css */
+
+#scrollTop i{
+    color: var(--white);
+    font-size: 22px;
+}
+#scrollTop{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    z-index: 99;
+    background-color: var(--red-dark);
 }
