@@ -40,7 +40,6 @@ $(document).ready(function() {
             }, '1000')
         });
     
-
         $(window).on('scroll', function(){
             if ($(this).scrollTop() > 600) {
                 $('#scrollTop').css('opacity', '1');
@@ -48,6 +47,9 @@ $(document).ready(function() {
                 $('#scrollTop').css('opacity', '0');
             }
         });
+        
+        $('.preloader').fadeOut();
+
     });
 
 
