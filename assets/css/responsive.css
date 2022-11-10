@@ -1,0 +1,58 @@
+@media only screen and (min-width:920px) and (max-width: 1200px) {
+    /* services */
+    .navbar-nav li a {
+        padding: 0 5px !important;
+    }
+    .single-services {
+        padding: 20px 12px;
+    }
+    .hero-content h1 {
+        font-size: 1.7rem;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .section-paddind {
+        padding: 80px 0 80px 0;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: var(--white);
+        border-color: 0;
+    }
+    .hero-content h1 {
+        font-size: 1.7rem;
+    }
+    .navbar-collapse a {
+        margin: 5px 0;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    .about-info ul {
+        width: 100%;
+    }
+    .timeline-list::after, .timeline-list li::after {
+        display: none;
+    }
+    .timeline-list li .timeline-content {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .timeline-list li:nth-child(2n) .timeline-content {
+        float: none;
+        text-align: center;
+    }
+    .section-title h2 {
+        font-size: 1.9rem;
+    }
+    .single-team, .single-blog {
+        margin-bottom: 1rem;
+    }
+    .cta-area h2 {
+        font-size: 1.5rem;
+    }
+    .cta-area p {
+        font-size: .9rem;
+    }
+}
